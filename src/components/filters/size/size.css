@@ -1,0 +1,5 @@
+.btnContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки одинаковой ширины */
+  gap: 2px; 
+}

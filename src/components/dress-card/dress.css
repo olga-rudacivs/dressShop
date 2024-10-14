@@ -1,0 +1,37 @@
+.card {
+    
+
+    box-sizing: border-box; 
+}
+
+.dressCard {
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px; 
+    max-width: 800px; 
+    padding: 10px; 
+}
+
+.dressPic {
+    height: 180px; /* Высота изображения */
+    width: 150px /* Ширина 100% */
+}
+
+
+p {
+    margin: 0; /* Убираем отступы */
+}
+
+.containerColors {
+    display: flex;
+    flex-direction: row;
+    width: 200px; /* Убедитесь, что это значение подходит для вашего дизайна */
+}
+
+.first, .second, .tri {
+    width: 20px; /* Размеры кнопок цветов */
+    height: 20px;
+    border: none;
+    margin: 10px;
+}

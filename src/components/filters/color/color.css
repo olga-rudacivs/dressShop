@@ -1,0 +1,16 @@
+.colorBtn{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+.colorBtn:hover{
+    border: 2px solid black;
+}
+.btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row
+ 
+ 
+}

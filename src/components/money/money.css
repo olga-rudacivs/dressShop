@@ -1,0 +1,17 @@
+.sliderBox{
+
+    background-color: black;
+}
+.priceSize{
+    display: flex;
+    flex-direction: column;
+}
+.track {
+    
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: black; 
+    transform: translateY(100%); 
+}
